@@ -15,6 +15,7 @@ axios.get(url).then((resp) => {
   const title = todo.title;
   const completed = todo.completed;
 
+  // Extract console.log to a helper function
   console.log(`
     The Todo with ID: ${ID}
     Has a title of: ${title}
